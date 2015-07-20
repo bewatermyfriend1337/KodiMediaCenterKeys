@@ -60,7 +60,7 @@ namespace Kodi_Media_Keys
         NotifyIcon niKodi_MediaKeys;
         string previousSong = "";
 
-        string rpcLocation = "http://192.168.1.9:8282/jsonrpc"; // IP of the computer running Kodi (as well as the port)
+        string rpcLocation = "http://xxx.xxx.x.x:xxxx/jsonrpc"; // IP of the computer running Kodi (as well as the port)
 
         public string Title { get { return title; } }
         public string Artist { get { return artist; } }

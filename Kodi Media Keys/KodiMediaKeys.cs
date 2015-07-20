@@ -35,7 +35,7 @@ namespace Kodi_Media_Keys
         ManagementEventWatcher eWatcher;
 
         string processToWatch = "Kodi.exe"; // Name of application that will be watched
-        string rpcLocation = "http://192.168.1.9:8282/jsonrpc"; // IP of the computer running Kodi (as well as the port)
+        string rpcLocation = "http://xxx.xxx.x.x:xxxx/jsonrpc"; // IP of the computer running Kodi (as well as the port)
 
         //Display
         LogitechDisplay lDisplay = new LogitechDisplay();
