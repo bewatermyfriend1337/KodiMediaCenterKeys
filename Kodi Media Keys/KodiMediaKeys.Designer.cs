@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmKodiMediaKeys));
             this.niKodi_MediaKeys = new System.Windows.Forms.NotifyIcon(this.components);
-            this.pbLCD = new System.Windows.Forms.PictureBox();
             this.cmsKodi_MediaKeys = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLCD)).BeginInit();
+            this.pbLCD = new System.Windows.Forms.PictureBox();
             this.cmsKodi_MediaKeys.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLCD)).BeginInit();
             this.SuspendLayout();
             // 
             // niKodi_MediaKeys
@@ -45,14 +45,6 @@
             this.niKodi_MediaKeys.Text = "Kodi Media Keys";
             this.niKodi_MediaKeys.Visible = true;
             this.niKodi_MediaKeys.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.niKodi_MediaKeys_MouseDoubleClick);
-            // 
-            // pbLCD
-            // 
-            this.pbLCD.Location = new System.Drawing.Point(13, 13);
-            this.pbLCD.Name = "pbLCD";
-            this.pbLCD.Size = new System.Drawing.Size(160, 43);
-            this.pbLCD.TabIndex = 0;
-            this.pbLCD.TabStop = false;
             // 
             // cmsKodi_MediaKeys
             // 
@@ -68,6 +60,14 @@
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
+            // pbLCD
+            // 
+            this.pbLCD.Location = new System.Drawing.Point(13, 13);
+            this.pbLCD.Name = "pbLCD";
+            this.pbLCD.Size = new System.Drawing.Size(160, 43);
+            this.pbLCD.TabIndex = 0;
+            this.pbLCD.TabStop = false;
+            // 
             // frmKodiMediaKeys
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -80,8 +80,8 @@
             this.Text = "Kodi Media Keys";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmKodiMediaKeys_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLCD)).EndInit();
             this.cmsKodi_MediaKeys.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbLCD)).EndInit();
             this.ResumeLayout(false);
 
         }
