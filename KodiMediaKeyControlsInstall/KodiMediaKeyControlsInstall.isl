@@ -3855,7 +3855,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
-		<row><td>_Built_A8A74863A2C544E7994C3A3FE87E0315.exe</td><td/><td>C:\Users\Andrew\Documents\Projects\XBMC Media Keys\Kodi Version\Kodi Media Keys\Logo.ico</td><td>0</td></row>
+		<row><td>_Built_F8A615AB6E604DAAB697B128971E7340.exe</td><td/><td>&lt;VSSolutionFolder&gt;\Kodi Media Keys\favicon.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4529,7 +4529,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>_Built</td><td>kodime_1_kodi_media_key_controls</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Kodi_Media_Keys.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built_A8A74863A2C544E7994C3A3FE87E0315.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built</td><td>kodime_1_kodi_media_key_controls</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Kodi_Media_Keys.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built_F8A615AB6E604DAAB697B128971E7340.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
